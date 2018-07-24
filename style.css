@@ -1,0 +1,67 @@
+
+.jumbotron {
+    position: fixed;
+    background-repeat: repeat;
+    opacity: 0.75;
+    background-color: #444;
+}
+
+#game {
+    padding-top: 20px;
+}
+h1 {
+    font-family: 'Monoton', cursive;
+    padding-top: 40px;
+    font-size: 42pt;
+    text-align: center;
+    font-weight: bolder;
+    color: gold;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-shadow: 3px 3px 3px #4c00ff;
+}
+ h4 {
+padding-top: 40px;
+    font-size: 32pt;
+    color: red;
+    text-shadow: 3px 3px 3px blue;
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+}
+.gameBlock {
+    min-height: 250px;
+    position: relative;
+}
+#reset {
+    width: 150px;
+    height: 50px;
+    position: relative;
+    margin: auto;
+    left: 10%;
+    font-size: 16pt;
+    color: red;
+    background-color: black;
+    border: 2px dashed gold;
+    border-radius: 20px;
+    opacity: .5;
+}
+
+/*--------------------------------------------------------
+                Image attribs
+------------------------------------------------------------*/
+#youwin-image {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 40%;
+    top: 50%;
+}
+#congrats {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 40%;
+    top: 50%;
+  }
+ 
